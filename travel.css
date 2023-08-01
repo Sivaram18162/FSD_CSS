@@ -1,0 +1,70 @@
+.logo
+{
+	height: 90px;
+	width: 180px;
+	background-image: url("../HTML/images/default-logo.png");
+	background-size: cover;
+}
+.image
+{
+	height: 800px;
+	width: 900px;
+	background-color: whitesmoke;
+	background-image: url("../HTML/images/555.png");
+	background-size: cover;
+
+}
+.travel
+{
+	padding-left: 700px;
+	font-family: sans-serif;
+	color: orange;
+	font-size: 90px;
+
+}
+.p
+{
+	padding-left: 900px;
+	font-size: 20px;
+	font-family: sans-serif;
+
+}
+.aaa
+{
+	background-color: skyblue;
+	height: 600px;
+	width: 1500px;
+}
+.bb
+{
+	font-size: 80px;
+	color: antiquewhite;
+	text-align: center;
+}
+.cc
+{
+	padding-top: 10px;
+	font-size: 30px;
+	color: antiquewhite;
+	text-align: center;
+}
+.one
+{
+	margin-top: 30px;
+	margin-left: 10px;
+	font-size: 20px;
+	border: ridge;
+	height: 250px;
+	width: 300px;
+	border-radius: 10px;
+}
+.two
+{
+	margin-top: 100px;
+	margin-left: 10px;
+	font-size: 20px;
+	border: ridge;
+	height: 150px;
+	width: 250px;
+	float: right;
+}

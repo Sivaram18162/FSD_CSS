@@ -1,0 +1,16 @@
+.span
+{
+	font-size: 30px;
+	height: 50px;
+	width: 200px;
+	border-style: double;
+	border-width: 10px;
+	border-color: red green blue yellow;
+	border-radius: 60px;
+	/*border: 5px solid green;*/
+	/*border-top-style: dotted;
+	border-right-style: dashed;
+	border-bottom-style: inset;
+	border-left-style: ridge;*/
+
+}

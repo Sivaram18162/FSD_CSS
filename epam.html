@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task</title>
+	<div class="pic">
+		<img src="../HTML/images/epam.png">
+	</div> 
+	<h2>HTML Elements</h2><hr>
+	<link rel="stylesheet" type="text/css" href="epam.css">
+</head>
+<body>
+	<nav>
+		<a href="#Home"><u>Home</u></a>
+		<a href="#Header"><u>Headers</u></a>
+		<a href="#Table"><u>Table</u></a>
+		<a href="#Lists"><u>Lists</u></a>
+		<a href="#Text-Formats"><u>Text-Formats</u></a>
+		<a href="#Blockquotes"><u>Blockquotes</u></a>
+	</nav>
+	<hr>
+	<div id="Home">
+		<p>Pay attention to h1 tag inside element.Font-size for h1 is the same as font-size for h2, because we have to use the page, and it is commonly used inside header.</p>
+	</div>
+
+	<div id="Header">
+		<h1>Header 2</h1>
+		<h2>Header 3</h2>
+		<h3>Header 4</h3>
+		<h4>Header 5</h4>
+		<h5>Header 6</h5>
+		<p>Lorem ipsum dolor sit amet, <a href="#">test link</a> adipiscing elit.<strong>This is strong.</strong> Nullam dignissim convallis est. Quisque aliquam.<i>This is emphasized.</i> Donec faucibus. Nunc iaculis suscipit dui.5<sup>3</sup> = 125. Water is H20. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <i>The New York Times </i>(That's a citation).<u>Underline.</u> Maecenas ornare tortor. Donec sed tell us eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue <big> quis tellus.</big>
+			<br><br>
+HTML and CSS are our tools. Mauris a ante.<mark>Suspendisse</mark> quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type COPY filename.<del>Dinner`s at 5.00.</del> <mark>Let's make that 7.</mark> This text has been struck.
+</p>
+	</div>
+
+	<hr>
+
+
+	<div id="Table"></div>
+	<h2>Table</h2>
+		<table border="" cellspacing="0px">		
+			<thead>
+				<th width="300px">Header</th>
+				<th width="300px">Header</th>
+				<th width="300px">Header</th>
+			</thead>
+			<tr>
+				<td>Lviv</td>
+				<td>Kyiv</td>
+				<td>Kharkiv</td>
+			</tr>
+			<tr>
+				<td>Odessa</td>
+				<td>Zhytomyr</td>
+				<td>Dhinpro</td>
+			</tr>
+			<tr>
+				<td>Suny</td>
+				<td>Chernivisti</td>
+				<td>Lutsk</td>
+			</tr>
+		</table>
+	</div>
+
+	<h2><div id="Lists">Lists</div></h2>
+	<h2>Unordered List</h2>
+	<div>
+		<ul>
+			<li>List item 1</li>
+			<li>List item 2</li>
+			<ul>
+				<li>Some nested list item 1</li>
+			</ul>
+			<li>List item 3</li>
+		</ul>
+		<div>
+			<h2>Ordered List</h2>
+			<ol>
+				<li>List item 1</li>
+				<li>List item 2
+					<ol>
+						<li>Some nested list item 1</li>
+					</ol>
+				</li>
+				<li>List item 3</li>
+			</ol>
+		</div>
+
+	<div>
+		<h2>Defination List</h2>
+		<dl><b>define terms 1</b></dl>
+		<dl>description 1</dl>
+		<dl><b>define terms 2</b></dl>
+		<dl>description 2</dl>
+		<br>
+		<label>Details</label>
+		<select>
+			<option>--Select--</option>
+			<option>HTML</option>
+			<option>CSS</option>
+			<option>Java Script</option>
+		</select>
+	</div>
+	<hr>
+
+
+	<div id="Text-Formats">
+		<h2><p>Text Formats</p></h2>
+		<h3><p>Article Text</p></h3>
+		<h4><p>Article title</p></h4>
+		<h5><p>Article description</p></h5>
+		
+		<h2>Performatted Text</h2>
+		<div class="box">
+			<pre>
+					Text 
+				in a pre element 
+				  is displayed in a fixed-width 
+			   font, and it preserves 
+			   both 
+			    spaces and 
+			   	 line breaks
+			</pre>
+		</div>
+		<h2>Code</h2>
+		<div class="wrapper">
+			.wrapper{<br>
+				display: flex;<br>
+				vertical-align: middle;<br>
+				justify-content: center;<br>
+			}
+		</div>
+	</div>
+	
+	<div id="Blockquotes">
+		<h2>Blockquotes</h2>
+		<p>Let's keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+		<br>
+		<p><i>"If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago. "<br><br>
+			<a href="#"><u>Elon Musk</u></a></i></p>
+			<hr>
+	</div>
+
+	<div class="form">
+		<form>
+			<label>First Name:</label>
+			<input type="text" name=""><br><br>
+			<label>Surname:</label>
+			<input type="text" name=""><br><br>
+			<label>Email:</label>
+			<input type="text" name=""><br><br>
+			<textarea></textarea><br><br><label></label>
+			<input type="Submit" name="">
+		</form>
+	</div>
+	<div class="copyright">
+		<p>@Copyright Epam Systems</p>
+	</div>
+</div>
+</body>
+</html>

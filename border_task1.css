@@ -1,0 +1,12 @@
+.border
+{
+	height: 400px;
+	width: fit-content;
+	border-width: 20px;
+	border: 10px dotted green;
+}
+.one{
+	background-color: pink;
+	height: 400px;
+	width: 600px;
+}

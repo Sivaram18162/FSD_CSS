@@ -1,0 +1,10 @@
+.abx{
+	margin-top: 300px;
+	float: right;
+	margin-left: -350px;
+	margin-right: 450px;
+	width: 500px;
+	height: 80px;
+	border: 10px solid;
+	border-image: url('../HTML/images/task4.jpg') 30 fill / 30px stretch;
+}

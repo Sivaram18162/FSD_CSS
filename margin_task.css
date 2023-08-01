@@ -1,0 +1,38 @@
+.one
+{
+	height: 400px;
+	width: 1200px;
+
+}
+.two
+{
+	border: 20px solid black;
+	height: 400px;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 100px;
+	float: left;
+}
+.three
+{
+	border: 20px solid black;
+	height: 400px;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;	
+	float: left;
+	
+}
+.four
+{
+	border: 20px solid black;
+	height: 400px;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 100px;
+	float: right;
+}
+
