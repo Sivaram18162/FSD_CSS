@@ -1,0 +1,22 @@
+h1
+{
+	text-align: center;
+	text-shadow: 3px 3px 4px green; 
+}
+h2
+{
+	text-align: center;
+	text-shadow: 3px 3px 4px green; 
+}
+div
+{
+	height: 200px;
+	width: 400px;
+	border: 2px solid blue;
+	margin-left: 560px;
+}
+p{
+	text-align: justify;
+	text-transform: uppercase;
+
+}
